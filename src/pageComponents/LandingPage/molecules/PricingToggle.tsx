@@ -12,7 +12,7 @@ export function PricingToggle({
     <div>
       <div className="flex items-center">
         <span className={`mr-2 font-bold ${enabled ? "text-gray-500/60" : ""}`}>
-          Monthly
+          Месечно 
         </span>
         <Switch
           checked={enabled}
@@ -28,7 +28,7 @@ export function PricingToggle({
           />
         </Switch>
         <span className={`ml-2 font-bold ${enabled ? "" : "text-gray-500/60"}`}>
-          Yearly
+          Годишно
         </span>
       </div>
     </div>

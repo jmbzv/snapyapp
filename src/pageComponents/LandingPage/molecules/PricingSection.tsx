@@ -12,8 +12,8 @@ export function PricingSection() {
   const { t } = useTranslation();
   const pricingOptions = [
     {
-      price: "$6.99",
-      yearlyPrice: "$59.99",
+      price: "9лв.",
+      yearlyPrice: "99лв.",
       name: t("landingPage.pricing.standard.name"),
       description: t("landingPage.pricing.standard.description"),
       features: [
@@ -53,10 +53,10 @@ export function PricingSection() {
       <div className="pricing-headline flex flex-col gap-y-2">
         <div className="flex flex-col items-center justify-center gap-y-3">
           <h3 className="mx-auto max-w-xs text-center text-3xl font-bold leading-[1.15] text-black sm:text-4xl md:mx-0 md:max-w-full">
-            Ready to start with us?
+            Готов ли си да започнеш?
           </h3>
           <p className="text-sm text-slate-700/70">
-            Choose the best package that suits you
+            Избери плана, който е най-подходящ за теб.
           </p>
         </div>
         <div className="mt-8 flex justify-center">
@@ -81,7 +81,7 @@ export function PricingSection() {
                     <span className="text-3xl font-[620] text-slate-800">
                       {enabled ? option.yearlyPrice : option.price}
                       <span className="text-sm font-medium text-zinc-500">
-                        {enabled ? "/year" : "/month"}
+                        {enabled ? "/година" : "/месец"}
                       </span>
                     </span>
                   </h3>
@@ -108,7 +108,7 @@ export function PricingSection() {
                     className="tracking-tight"
                     style={{ color: option.buttonTextColor }}
                   >
-                    Choose Plan
+                    Избери План 
                   </span>
                   <Icons.arrowRight className="ml-2" />
                 </Link>

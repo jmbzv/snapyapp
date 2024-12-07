@@ -15,7 +15,7 @@ export const Footer = () => {
                 alt="Feastqr Logo"
               />
               <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-                FeastQR
+                Snapy
               </span>
             </a>
           </div>
@@ -110,9 +110,9 @@ export const Footer = () => {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
             <a href="https://feastqr.com/" className="hover:underline">
-              FeastQR
+              SNAPY
             </a>
-            . Miłosz Jankiewicz ventures.
+            . създадено от АД
           </span>
           <div className="mt-4 flex sm:mt-0 sm:justify-center">
             <a
